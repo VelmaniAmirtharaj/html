@@ -25,13 +25,13 @@ body{
 
 /** id selectors **/
 
-/**
+
 #contact-us {
-    color: green;
+    color: rgb(201, 99, 99);
 }                                           
 
 
-**/
+
 
 /** specificity when use ia and class **/
 
@@ -47,6 +47,10 @@ h2:hover{
 
 **/
 
+.contact-us{
+    color: tomato;
+}
+
 
 .subtitle{
     color: blue; 
@@ -54,4 +58,13 @@ h2:hover{
 
 #services {
     color: blueviolet;
+}
+
+/** ul not working in pseudo selectors **/
+ul:first-child{
+    color: steelblue;
+}
+
+li:first-child{
+    color: violet;
 }
