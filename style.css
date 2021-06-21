@@ -65,8 +65,14 @@ ul:first-child{
     color: steelblue;
 }
 
-/** 0nly li change color **/
+/** 0nly li change color 
 
 li:first-child{
     color: violet;
 }
+
+**/
+
+
+li:last-child{
+    color: violet;
