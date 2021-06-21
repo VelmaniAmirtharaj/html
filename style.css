@@ -60,10 +60,12 @@ h2:hover{
     color: blueviolet;
 }
 
-/** ul not working in pseudo selectors **/
+/** ul not working color wont  in pseudo selectors **/
 ul:first-child{
     color: steelblue;
 }
+
+/** 0nly li change color **/
 
 li:first-child{
     color: violet;
