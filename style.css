@@ -1,0 +1,57 @@
+
+/**
+body{
+    background: aqua;
+}
+
+
+
+.title {
+    color: red;
+}
+
+**/
+
+/** class selector **/
+
+
+/**
+
+.subtitle {
+    color: rgb(255, 0, 200);
+}
+
+**/
+
+/** id selectors **/
+
+/**
+#contact-us {
+    color: green;
+}                                           
+
+
+**/
+
+/** specificity when use ia and class **/
+
+h2:hover{
+    color:green;
+}
+
+/** 
+
+.about-me {
+          color: blue; 
+}
+
+**/
+
+
+.subtitle{
+    color: blue; 
+}
+
+#services {
+    color: blueviolet;
+}
