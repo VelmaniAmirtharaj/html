@@ -82,7 +82,8 @@ li:last-child{
 
 /** :nth-child and give numbers  **/
 
-li:nth-child(2) {
-    color: violet;
+li:only-child {
+    color: purple;
 }
+
 
