@@ -87,3 +87,15 @@ li:only-child {
 }
 
 
+td:only-child {
+    color: purple;
+}
+
+#google-link:link {
+    color: red;
+
+}
+
+#google-link:visited {
+    color: royalblue;
+}
