@@ -107,21 +107,28 @@ td:only-child {
 
 /* Advanced selectors
 (Attribute selectors)
-()general sibiling selector*/
+general sibiling selector*/
+
+
+/* Adjacent sibiling selector */
 
 h2+a{
     color: greenyellow;
 }
 
+/* General Sibling selector*/
+
 textarea ~ button {
     color: indigo;
 }
+
+/* Direct child selector*/
 
 ul > li {
     color: lightcoral;
 }
 
-
+/* Decendant selector */
 /*
 ul li {
     color: lightgreen;
