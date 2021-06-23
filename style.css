@@ -91,6 +91,7 @@ td:only-child {
     color: purple;
 }
 
+/*
 #google-link:link {
     color: red;
 
@@ -98,4 +99,17 @@ td:only-child {
 
 #google-link:visited {
     color: royalblue;
+}
+*/
+
+/* Advanced selectors
+(Attribute selectors)
+()general sibiling selector*/
+
+h2+a{
+    color: greenyellow;
+}
+
+textarea ~ button {
+    color: indigo;
 }
