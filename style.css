@@ -82,10 +82,13 @@ li:last-child{
 
 /** :nth-child and give numbers  **/
 
+/*
+
 li:only-child {
     color: purple;
 }
 
+*/
 
 td:only-child {
     color: purple;
@@ -112,4 +115,12 @@ h2+a{
 
 textarea ~ button {
     color: indigo;
+}
+
+ul > li {
+    color: lightcoral;
+}
+
+ul li {
+    color: lightgreen;
 }
