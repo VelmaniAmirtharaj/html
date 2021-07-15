@@ -1,10 +1,10 @@
 
-/**
+
 body{
     background: aqua;
 }
 
-
+/**
 
 .title {
     color: red;
@@ -129,9 +129,29 @@ ul > li {
 }
 
 /* Decendant selector */
+
 /*
 ul li {
     color: lightgreen;
 }
 
+*/
+
+
+/* Advanced selectors (Attribute selectors) 
+Example:
+*/
+
+
+img[src^="../html/"]
+{
+    border: 3px solid black;
+}
+
+/*
+
+img[src]
+{
+    border:10px solid black;
+}
 */
