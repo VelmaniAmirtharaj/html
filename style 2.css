@@ -1,0 +1,137 @@
+
+/**
+body{
+    background: aqua;
+}
+
+
+
+.title {
+    color: red;
+}
+
+**/
+
+/** class selector **/
+
+
+/**
+
+.subtitle {
+    color: rgb(255, 0, 200);
+}
+
+**/
+
+/** id selectors **/
+
+
+#contact-us {
+    color: rgb(201, 99, 99);
+}                                           
+
+
+
+
+/** specificity when use ia and class **/
+
+h2:hover{
+    color:green;
+}
+
+/** 
+
+.about-me {
+          color: blue; 
+}
+
+**/
+
+.contact-us{
+    color: tomato;
+}
+
+
+.subtitle{
+    color: blue; 
+}
+
+#services {
+    color: blueviolet;
+}
+
+/** ul not working color wont  in pseudo selectors **/
+ul:first-child{
+    color: steelblue;
+}
+
+/** 0nly li change color 
+
+li:first-child{
+    color: violet;
+}
+
+
+
+
+li:last-child{
+    color: violet;
+}
+
+**/
+
+/** :nth-child and give numbers  **/
+
+/*
+
+li:only-child {
+    color: purple;
+}
+
+*/
+
+td:only-child {
+    color: purple;
+}
+
+/*
+#google-link:link {
+    color: red;
+
+}
+
+#google-link:visited {
+    color: royalblue;
+}
+*/
+
+/* Advanced selectors
+(Attribute selectors)
+general sibiling selector*/
+
+
+/* Adjacent sibiling selector */
+
+h2+a{
+    color: greenyellow;
+}
+
+/* General Sibling selector*/
+
+textarea ~ button {
+    color: indigo;
+}
+
+/* Direct child selector*/
+
+ul > li {
+    color: lightcoral;
+}
+
+/* Decendant selector */
+/*
+ul li {
+    color: lightgreen;
+}
+
+*/

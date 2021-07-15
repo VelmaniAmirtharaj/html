@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+     <!-- Meta tags -->   
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="your Descrption">
+    <meta name="author" content="Hasika">
+    <meta name="keywords" content="HTML, Tutorial, ecommerce">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Hasika's website</title>
+
+
+    </head>
+
+    <body style=background-color:pink>
+
+        <!-- (its a kind of invisible in website)we can display comments and also hide certain code if not needed-->
+       
+        <h1>Hasika's Website</h1>
+        <hr/>
+        <br/>
+        <p><big>This </big>is <small>my</small> <i><b>paragraph</b></i></p>
+        <p>H<sub>2</sub>O</p>
+        <p>10<sup>2</sup></p>
+
+
+        <h2 style="color:green">Style Colours</h2>
+        <P style="color:white; background: blue;" >This is the first Html colour I designed</P>
+        
+        <!--Formatting pagese we use these tags in html-->
+            <!--basic main three tags are header,main and footer-->
+        <header>
+            <nav>
+
+            </nav>
+
+        </header>
+        <main>
+            <article>
+
+                <section>
+                    <h1></h1>
+                        <h2></h2>
+                             <h3></h3>
+                        <h2></h2>
+
+                </section>
+                <section>
+                    <aside>
+
+                    </aside>
+
+                </section>
+            </article>
+        </main>
+        <footer>
+
+        </footer>
+
+        <!--Links-->     
+        
+        <a href="https://www.google.com"><h1 style=color:rose>Googles's homepage</h1></a>
+        <br/>
+        <a href="https://www.google.com" target="_blank"><h1 style=color:aqua>Googles's homepage open next tab</h1></a>
+        <br>
+        <a href="next.html">Page2</a>
+        <br>
+        <a href="Dir1/page3.html">page3</a>
+        <br/>
+        <a href="horse.jpeg">horse</a>
+
+        <!--image-->
+
+        <br/>
+        <img width="700" height="650" src="horse.jpeg" alt="A super white horse"/>
+        <br/>
+
+        <!-- if u didnt give height value html automatically adjust height based on width-->
+        <img width="1000" src="horse.jpeg" alt="A super white horse"/>
+
+        <!--Video and frames if u need to use autoplay 
+            in the chrome in html code "muted" along with "autoplay"
+        and also we can "loop" for play again and again  -->
+
+        <br/>
+        <br/>
+
+        <video src="SampleVideo.mp4" poster="horse.jpeg" muted controls autoplay width="600"></video>
+
+
+        <br/>
+        <!--youtube vedio goto utube and click share and click embed and copy html code and paste-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+        <br/>
+        <!-- Lists (li)
+        1. order list(ol)
+        2. unorder list (ul)
+        3. Descrption List-->
+
+
+        <ul>
+            <li><a href="#">Apple</a></li>
+            <li>Orange</li>
+            <li>Banana</li>
+        </ul>
+
+
+        <ol>
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Banana</li>
+        </ol>
+
+        <ol type="I">
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Banana</li>
+        </ol>
+
+
+        <ol type="I">
+            <li>Apple</li>
+            <ol type="a">
+                <li>item 1</li>
+                <li>item 2</li>
+            </ol>
+            <li>Orange</li>
+            <li>Banana</li>
+        </ol>
+
+        <br/>
+
+        <!-- The <dl> tag defines a description list. 
+            The <dl> tag is used in conjunction with 
+                <dt> (defines terms/names) and 
+                    <dd> (describes each term/name).-->
+
+        <dl>
+            <dt>Apples</dt>
+            <dd>- They are red in colour</dd>
+            <dt>Oranges</dt>
+            <dd>- They are citrius fruits</dd>
+        </dl>  
+        
+        <br/>
+
+
+
+        <!-- Tables -->
+
+        <table>
+            <thead>
+            
+                <caption><h2>List of Numbers<h2></caption>
+
+                <tr>
+                    <th>num one</th>
+                    <th>num two</th>
+                    <th>num three</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+
+                <tr>
+                    <td>four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+        </tbody>
+
+
+        <br/>
+        <br/>
+
+        <table>
+            <thead>
+            
+                <caption><h2>List of Numbers<h2></caption>
+
+                <tr>
+                    <th>num one</th>
+                    <th>num two</th>
+                    <th>num three</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td colspan="3">one</td>
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+
+                <tr>
+                    <td>four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+            </tbody>    
+
+        </table>
+
+
+
+        <br/>
+        <br/>
+
+        <!-- Divs and spans (its like containers)
+        spans are in-line elements and Divs are
+        Block elements-->
+
+        <!-- inline container example(if length of word increase, it 
+            taks more space from the inline only it wont go next line)-->
+
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+
+
+        <a href="#">Link1sdfdsvd</a>
+        <a href="#">Link2</a>
+
+
+
+        <hr>
+
+        <!-- Block containers example-->
+        <p>Paragraph1</p>
+        <p>Paragraph2</p>
+
+
+
+        <span>span1</span>
+        <span>span2</span>
+
+
+        <hr>
+        <br/>
+
+
+        <div>div1</div>
+        <div>div2</div>
+
+
+        <!--input and forms-->
+
+
+        <input type="text" value="Enter the name"/>
+        <br/>
+        <br/>
+        <input type="password" value="passwd"/>
+        <br/>
+        <br/>
+        <input type="date"/>
+        <br/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <br/>
+        <input type="email"/>
+        <br/>
+        <br/>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+        <br/>
+        <br/>
+        <input name="btn" type="radio"/>
+        <input name="btn" type="radio"/>
+        <br/>
+        <br/>
+
+        <form>
+            <input type="submit"/>
+        </form>
+
+
+        <br/>
+        <br/>
+
+     
+
+        <textarea rows="10" cols="30">
+            Enter a paragraph
+        </textarea>
+
+        <br/>
+        <br/>
+
+         <!--iFrames-->
+
+         <iframe src="https://www.aarria.com" frameborder="0" width="1000" height="800"></iframe>
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
